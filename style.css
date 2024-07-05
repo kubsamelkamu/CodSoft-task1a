@@ -337,4 +337,47 @@ a img:hover{
     text-decoration: underline;
 }
 
+/* Footer style */
+footer{
+    background:#ccc;
+    color: #1c1a1a;
+    text-align: center;
+    padding: 1rem 0;
+ 
+}
+
+.footer-content{
+    max-width: 1200px;
+    margin:auto;
+    padding: 0 1rem;
+    
+}
+
+.footer-content p{
+    margin: 0;
+}
+
+.footer-links{
+    list-style: none;
+    padding: 0;
+    margin:1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-links li{
+    list-style: none;
+    margin:0;
+}
+
+.footer-links li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer-links li a:hover{
+    text-decoration: underline;
+}
+
 
