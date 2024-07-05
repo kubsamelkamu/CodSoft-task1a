@@ -134,3 +134,46 @@ header nav ul li a:hover {
     }
     
 }
+
+/* Skill section style */
+#skills {
+    padding: 20px;
+    background-color:white;
+}
+
+.skills-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.skill-block {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 30px;
+    width: 310px;
+    height: 310px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.skill-block:hover{
+    border: 3px solid yellowgreen;
+}
+
+.skill-block h3 {
+    color: brown;
+    margin-top: 0;
+}
+
+.skill-block p {
+    margin-bottom: 0;
+}
