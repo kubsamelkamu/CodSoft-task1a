@@ -41,6 +41,70 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* About Section */
+#about {
+    padding: 2rem;
+    text-align: left;
+}
+
+h2{
+    color: brown;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bio {
+    flex: 1;
+    text-align:center;
+    padding-right :2rem;
+}
+
+.bio h2 {
+    margin-top: 0;
+}
+
+.bio .social-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 15px;
+}
+
+.bio .social-links img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.image {
+    flex: 1;
+    text-align:center;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: inline;
+    justify-content: space-between;
+}
+
+a img:hover{
+    animation: alternate;
+}
+
 /* Media query for devices with a width of 768px or less */
 @media (max-width: 768px) {
     .header-content {
@@ -177,3 +241,40 @@ header nav ul li a:hover {
 .skill-block p {
     margin-bottom: 0;
 }
+
+
+.projects-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.project-block {
+    display: inline-block;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.project-block h3 {
+    margin-top: 0;
+}
+
+.project-block p {
+    margin-bottom: 0;
+}
+
+.project-block:hover {
+    background-color: #e0e0e0;
+}
+
+
