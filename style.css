@@ -277,4 +277,32 @@ a img:hover{
     background-color: #e0e0e0;
 }
 
+/* Resume Section */
 
+#resume{
+    padding: 2rem;
+    text-align: center;
+    background-attachment: #f2ebeb;
+}
+
+.resume-content{
+    max-width: 600px;
+    margin:auto;
+}
+
+.resume-content .btn{
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    color: #fff;
+    background: #ed8e8e;
+    border:none;
+    border-radius:5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.resume-content .btn:hover{
+    background: #555;
+    text-decoration:underline;
+}
