@@ -306,3 +306,35 @@ a img:hover{
     background: #555;
     text-decoration:underline;
 }
+
+/* contact sectio style */
+#contact{
+    padding: 2rem;
+    text-align: center;
+    background: #e9ecef;
+}
+
+.contact-content{
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact-content h2{
+    margin-top: 0;
+}
+
+.contact-content ul li{
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.contact-content ul li a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-content ul li a:hover{
+    text-decoration: underline;
+}
+
+
